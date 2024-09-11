@@ -1,6 +1,5 @@
 import React from 'react'
 import './Partniyorlar.css'
-import lorem from '../../images/lorem.png'
 import sponsor from '../../images/sponsor.png'
 
 const Partniyorlar = () => {

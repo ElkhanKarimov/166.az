@@ -1,10 +1,8 @@
 import React from 'react'
-import SecondHeader from '../../components/SecondHeader/SecondHeader'
 import AboutHero from '../../components/AboutHero/AboutHero'
 import AboutMissioon from '../../components/AboutMission/AboutMission'
 import AboutWork from '../../components/AboutWork/AboutWork'
 import { Link } from 'react-router-dom'
-import Comments from '../../components/Comments/Comments'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";

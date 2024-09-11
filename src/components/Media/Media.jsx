@@ -2,7 +2,6 @@ import React from 'react'
 import './Media.css'
 import { LiaLongArrowAltRightSolid } from "react-icons/lia";
 import mediafirstpic from '../../images/mediafirstpic.png'
-import mediacard from '../../images/mediacard.png'
 import Photo from "../../images/Image (1).png";
 import { Link } from 'react-router-dom';
 
