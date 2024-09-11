@@ -1,0 +1,298 @@
+div ul {
+    margin-left: 20px;
+    padding-left: 20px;
+    list-style-type: disc !important;
+}
+
+.parent {
+    width: 345px;
+    height: 20px;
+}
+
+.parentdiv {
+    padding-top: 20px;
+    padding-left: 108px;
+}
+
+.sidebar-reklam {
+    display: flex;
+    justify-content: space-between !important;
+    padding: 40px 108px 70px 108px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 249px;
+    height: 1179px;
+    border: 1px solid #E4E4E4;
+    border-radius: 8px;
+}
+
+.sidebar-title {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+    width: 225px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.sidebar-titlex {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #F3F4F6;
+    padding-right: 10px;
+    color: #111827;
+    width: 215px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.sidebar-titlee {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 10px;
+    color: #111827;
+    width: 225px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.sidebar-titlet {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    width: 215px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #FFCC4D;
+}
+
+.sidebar-p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #8C8C8C;
+    width: 222px;
+    padding-left: 23px;
+}
+
+.arrow {
+    font-size: 22px;
+}
+
+.transport-sec {
+    display: flex;
+    gap: 50px;
+    padding-left: 105px;
+}
+
+.transport-title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.turizm {
+    font-size: 16px;
+    font-weight: 400px;
+    width: 625px;
+    color: #343434;
+    margin-top: 10px;
+}
+
+.sifaris-call {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sifaris {
+    width: 95px;
+    height: 36px;
+    border-radius: 8px;
+    background-color: #FFCC4D;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    width: 92px;
+    height: 36px;
+    border-radius: 8px;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.sprinter-info {
+    padding-left: 105px;
+}
+
+.sprinter {
+    font-size: 24px;
+    font-weight: 500;
+    color: #111827;
+    margin-top: 40px;
+}
+
+.how {
+    font-size: 24px;
+    font-weight: 500;
+    color: #111827;
+    margin-top: 100px;
+}
+
+.answer {
+    width: 936px;
+    height: 336px;
+    border: 2px solid #F6F8FF;
+    border-radius: 8px;
+    padding: 24px 50px;
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.how-answer {
+    padding-left: 105px;
+}
+
+.li {
+    font-size: 16px;
+    font-weight: 400;
+    color: #343434;
+}
+
+.info-boxss {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.info-box {
+    width: 208px;
+    height: 138px;
+    border: 2px solid #F6F8FF;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wifi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 170px;
+}
+
+.wifi2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 120px;
+}
+
+@media (max-width: 1419px) {
+    .transport-sec{
+        padding: 0px 0px 0px 10px;
+        flex-wrap: wrap;
+    }
+    .sprinter-info{
+        padding: 0px 0px 0px 10px;
+        width: 500px;
+    }
+    .info-boxss{
+        width: 500px;
+    }
+    .answer{
+        width: 600px;
+    }
+}
+@media (max-width: 978px) {
+    .sidebar-reklam{
+        padding: 40px 20px;
+        
+    }
+}
+@media (max-width: 887px) {
+    .sidebar-reklam{
+        padding: 40px 20px;
+        flex-direction: column;
+    }
+    .parentdiv{
+        padding: 20px;
+    }
+    .sprinter{
+        font-size: 20px;
+        width: 300px;
+    }
+    .info-boxss{
+        width: 300px;
+    }
+    .sprinter-info{
+        width: 300px;
+    }
+}
+@media (max-width: 659px) {
+    .turizm{
+        width: 300px;
+    }
+    .parent{
+        width: 300px;
+    }
+}
+@media (max-width: 659px) {
+    .turizm{
+        width: 300px;
+    }
+    .parent{
+        width: 300px;
+    }
+}
+@media (max-width: 1055px) {
+    .answer{
+        width: 500px;
+    }
+}
+@media (max-width: 660px) {
+    .how-answer{
+        padding: 0px 0px 0px 20px;
+    }
+}
+@media (max-width: 545px) {
+    .how{
+        font-size: 16px;
+    }
+    .answer{
+        width: 300px;
+        padding: 24px;
+    }
+}
+

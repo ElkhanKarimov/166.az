@@ -1,0 +1,156 @@
+.xidmet-sec {
+    padding: 20px 108px 20px 108px;
+}
+
+.lorem {
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.slorem {
+    color: #FFCC4D;
+}
+
+.countries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.country {
+    width: 151px;
+    height: 46px;
+    border: 1px solid rgba(131, 131, 131, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #FAFAFA;
+    border-radius: 8px;
+}
+
+.flag {
+    width: 24px;
+    height: 24px;
+}
+
+.infoboxs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.phm{
+    display: flex;
+}
+.hm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.xidmetbox{
+    width: 600px;
+    height: 408px;
+    background-color: #FFCC4D;
+    border-radius: 8px;
+    position: relative;
+}
+.partniyorbox{
+    width: 288px;
+    height: 408px;
+    background-color: #FFCC4D;
+    border-radius: 8px;
+    position: relative;
+}
+.haqqbox{
+    width: 288px;
+    height: 192px;
+    background-color: #FFCC4D;
+    border-radius: 8px;
+    position: relative;
+}
+.truckpic{
+    width: 575px;
+    height: 338px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.box1-p{
+    font-size: 32px;
+    font-weight: 600;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.box2-p{
+    font-size: 32px;
+    font-weight: 600;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.send{
+    width: 84px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background-color: white;
+    font-size: 24px;
+    color: #D39B04;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1410px){
+    .xidmet-sec{
+        padding: 20px 20px;
+    }
+}
+@media only screen and (max-width: 1230px){
+    .xidmet-sec{
+        padding: 20px 20px;
+    }
+    .countries{
+        gap: 10px;
+    }
+    .infoboxs{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hm{
+        display: flex;
+        gap: 20px;
+    }
+    .xidmetbox{
+        width: 330px;
+    }
+    .truckpic{
+        width: 330px;
+        object-fit: cover;
+    }
+}
+@media only screen and (max-width: 772px){
+    .lorem{
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 496px){
+    .lorem{
+        font-size: 25px;
+    }
+    .xidmetbox{
+        width: 300px;
+    }
+    .truckpic{
+        width: 300px;
+        object-fit: cover;
+    }
+}

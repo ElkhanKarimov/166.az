@@ -1,0 +1,59 @@
+.team{
+    padding: 38px 108px;
+}
+.team-head{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 37px;
+
+    p{
+        font-size: 32px;
+        font-weight: 600;
+    }
+}
+
+.team-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.team-card{
+    width: 392px;
+    margin-bottom: 38px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    p{
+        font-size: 20px;
+        font-weight: 500;
+        color: #111827;
+    }
+
+    span{
+        font-size: 16px;
+        font-weight: 400;
+        color: #4C4C4C
+
+    }
+}
+
+.person1{
+    width: 392px;
+    height: 430px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .team{
+        padding: 38px 20px;
+    }
+}
+@media only screen and (max-width: 438px) {
+    .person1{
+        width: 300px;
+    }
+}

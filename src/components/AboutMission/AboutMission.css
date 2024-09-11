@@ -1,0 +1,127 @@
+.about-mis {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 104px 108px 32px 108px;
+    gap: 24px;
+}
+
+.about-mis-left {
+    width: 604px;
+    height: 690px;
+    background-color: #1d1d1d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 108px;
+    padding-top: 47px;
+    padding-bottom: 47px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.about-mis-left-box {
+    padding: 20px 8px;
+    width: 228px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    border-bottom: 1px solid #343434;
+
+    p {
+        font-size: 36px;
+        font-weight: 600;
+    }
+
+    span {
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+.about-mis-right {
+    width: 680px;
+}
+
+.about-mis-right-head {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    p {
+        font-size: 32px;
+        font-weight: 600;
+        margin-bottom: 16px;
+    }
+}
+
+.mis-text {
+    width: 504px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 28px;
+}
+
+.mis-boxs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+}
+
+.mis-box {
+    border: 1px solid #e4e4e4;
+    width: 239px;
+    height: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    p {
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        padding: 5px;
+    }
+}
+
+.mis-box-circle {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff6e0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .about-mis{
+        padding: 104px 20px 32px;
+    }
+}
+@media only screen and (max-width: 890px) {
+    .about-mis{
+        flex-direction: column;
+        width: 350px;
+    }
+    .mis-boxs{
+        width: 300px;
+    }
+    .about-mis-right{
+        width: 300px;
+    }
+    .about-mis-left{
+        padding: 10px;
+        width: 300px;
+    }
+    .mis-text{
+        font-size: 12px;
+        width: 300px;
+    }
+    .about-mis-right-head{
+        width: 300px;
+    }
+}
